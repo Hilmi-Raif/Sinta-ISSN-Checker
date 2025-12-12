@@ -1,10 +1,10 @@
-# SintaISSNChecker
+# Sinta-ISSN-Checker
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/c2df2bfb-5032-469c-89f6-2821deb58a2b" alt="SintaISSNChecker" width="400">
 </p>
 
-**SintaISSNChecker** adalah aplikasi berbasis Go untuk memeriksa status akreditasi jurnal secara massal melalui situs SINTA (Science and Technology Index).
+**Sinta-ISSN-Checker** adalah aplikasi berbasis Go untuk memeriksa status akreditasi jurnal secara massal melalui situs SINTA (Science and Technology Index).
 
 ## Cara Kerja
 
@@ -17,7 +17,7 @@ Aplikasi ini bekerja dalam beberapa langkah sederhana:
 
 ## Cara Penggunaan
 
-1. Download file executable yang ada di [release](https://github.com/ScrKiddie/SintaISSNChecker/releases) atau build aplikasi sendiri menggunakan perintah berikut:
+1. Download file executable yang ada di [release](https://github.com/Hilmi-Raif/Sinta-ISSN-Checker/releases) atau build aplikasi sendiri menggunakan perintah berikut:
     ```bash
    go build ./cmd/app/ -o app.exe
    ```

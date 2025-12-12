@@ -15,7 +15,7 @@ const (
 )
 
 func CheckSintaStatus(issn string) (string, error) {
-	url := "https://sinta.kemdikbud.go.id/journals/?q=" + issn
+	url := "https://sinta.kemdiktisaintek.go.id/journals/?q=" + issn
 	var lastErr error
 
 	for attempt := 1; attempt <= maxRetries; attempt++ {
